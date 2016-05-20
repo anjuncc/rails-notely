@@ -1,5 +1,18 @@
 source 'https://rubygems.org'
+gem "active_model_serializers"
+gem 'devise'
+gem 'doorkeeper'
+gem 'warden'
 
+gem 'sass-rails'
+
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier'
+
+# Use CoffeeScript for .js.coffee assets and views
+gem 'coffee-rails'
+
+gem 'jquery-rails'
 
 gem 'rails', '4.2.6'
 
@@ -26,3 +39,4 @@ gem 'mysql2'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'puma'
